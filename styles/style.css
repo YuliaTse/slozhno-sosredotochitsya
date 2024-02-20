@@ -1,8 +1,5 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  
     background-image: var(--background);
     background-color: var(--page-background-color);
     background-position: center;
