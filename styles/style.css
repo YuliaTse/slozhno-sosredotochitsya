@@ -169,6 +169,9 @@
   .content__list-heading {
     font-size: inherit;
   }
+  .content__list-item__text {
+    margin-block-start: 10px;
+  }
   
   .content__list-item__heading {
     margin-block-end: 10px;
@@ -192,6 +195,7 @@
   
   .content__list-item__link:hover {
     text-decoration: underline;
+    text-decoration-color: var(--text-color);
   }
   
   .content__list-item__link:focus-visible {
@@ -207,7 +211,7 @@
     object-fit: cover;
     object-position: center;
   }
-  
+
   
   .footer {
     align-content: center;
