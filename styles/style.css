@@ -193,7 +193,7 @@
   }
   
   .content__list-item__link:hover {
-    box-shadow: 0 1px currentColor;    
+    box-shadow: 0 1px currentColor;
   }
   
   .content__list-item__link:focus-visible {
