@@ -183,9 +183,8 @@
   }
   
   .content__list-item__link {
-    text-shadow: 2px 2px 0 var(--accent-color);
-  
     text-decoration: none;
+    text-shadow: 2px 2px 0 var(--accent-color);
     cursor: pointer;
   }
   
@@ -194,8 +193,7 @@
   }
   
   .content__list-item__link:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--text-color);
+    box-shadow: 0 1px currentColor;    
   }
   
   .content__list-item__link:focus-visible {
